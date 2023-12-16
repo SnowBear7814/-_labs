@@ -31,7 +31,7 @@ int main(){
     printf("%s\n", string01);
     printf("\n");
 
-    // 7
+    // 5
 
     printf("%d \n" , strlength(string1));
 
@@ -45,7 +45,7 @@ int main(){
             }
             printf("%d\n", count);
 
-    //12
+    //13
     printf("%ld\n",strcspn(string1, string2));
     return 0;
 

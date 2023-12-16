@@ -7,13 +7,13 @@ int main()
     int length = 9;
     int arr[length];
     int i, j;
-    for (i = 0; i < length; i++)
+    for (i = 0; i < length; i++) //ввод значений в матрицу
     {
         printf("Array[%d] = ", i);
         scanf("%d", &arr[i]);
     }
 
-    for (i = 0; i < ceil(length / 3.0) ; i++)
+    for (i = 0; i < ceil(length / 3.0) ; i++) //вывод
         printf("%d  ", arr[i]);
     printf("\n");
     for (i = ceil(length / 3.0); i < 6.0 ; i++)
@@ -22,8 +22,8 @@ int main()
     for (i = 6.0; i < length ; i++)
         printf("%d  ", arr[i]);
     printf("\n");
-
-    int arr1[2][2] = {2, 5, 2, 2};
+    
+    int arr1[2][2] = {2, 5, 2, 2};   //Перемножение матриц 2x2
     int arr2[2][2] = {1, 2, 0, 1};
     int result[2][2] = {
             arr1[0][0] * arr2[0][0] + arr1[0][1] * arr2[1][0],

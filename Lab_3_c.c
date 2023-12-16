@@ -3,18 +3,18 @@
 int main() {
     int a, b, c;
     scanf("%x", &a);
-    printf("10-num: %d\n", a);
+    printf("10-num: %d\n", a);//вывод в различных системах счисления
     printf("8-num: %o\n", a);
     printf("16-num: %x\n", a);
     
-    printf("8-num: %o >> 3 == %o\n", a, a >> 3);
+    printf("8-num: %o >> 3 == %o\n", a, a >> 3);//сдвиг
     printf("16-num: %x >> 3 == %x\n", a, a >> 3);
     
-    printf("8-num: ~ %o = %o\n", a, ~a);
+    printf("8-num: ~ %o = %o\n", a, ~a);//битовая операция отрицания
     printf("16-num: ~ %x = %x\n", a, ~a);
     
     b = ('%o\n', a);
     c = ('%x\n', a);
-    printf("8-num||16-num: %o||%x == %d\n", a, a,b|c);
+    printf("8-num||16-num: %o||%x == %d\n", a, a,b|c);//битовая операция или
     return 0;
 }

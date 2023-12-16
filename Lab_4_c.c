@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 int main() {
-    int x = -4, y = -1, a, num, x1, y1;
+    int x = -4, y = -1, a, num, x1, y1;  //диапозон от -4 до -1
     scanf("%d", &a);
     x1 = a - x;
     y1 = y - a;
     printf("0 means in range: \n%d\n", !!!(x1 & y1));
 
     scanf("%o", &num);
-    if ((num & (1 << (15 - 1))) > 0){
+    if ((num & (1 << (15 - 1))) > 0){   //проверка бита под номером 15
         printf("True");
     } else {
         printf("False");

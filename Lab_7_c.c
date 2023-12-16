@@ -21,26 +21,19 @@ float Per(struct triangle tr)
 
 
 int main() {
-    
     //5
-    
     printf("%s", ROCK);
     enum Music a ;
     a = ROCK;
     printf("%d\n" , a);
-
     //4
-
     struct triangle Alfa;
     Alfa.length_a = 20;
     Alfa.length_b = 12;
     Alfa.length_c = 16;
     float per = Per(Alfa);
-
     printf("%f\n" , per);
-
     //5
-
     union {
         int x;
         struct {

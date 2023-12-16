@@ -18,10 +18,10 @@ void main() {
     if (arr != NULL) {
         int *d;
         d = arr;
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) { //ввод
             scanf("%c", &*d++);
         }
-        show(arr, n);
-        free(arr);
+        show(arr, n); //вывод массива
+        free(arr); //освобождаем память
     }
 }
